@@ -86,7 +86,7 @@ export default class View {
             <p>${message}</p>
           </div>
     `;
-    this._clear();
+    this._parentElement.innerHTML = '';
     this._insert(markup);
   }
 }
